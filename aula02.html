@@ -10,18 +10,19 @@
 
     <script>
 
-       var idade = parseInt (prompt('Digite sua idade'))
+        var nota1 = parseInt(prompt("Digite um número")); 
+        var nota2 = parseInt(prompt("Digite outro número"));
+        var media = (nota1 + nota2) / 2;
 
-       if (idade >= 18) {
-        alert ('Você pode beber alcool!')
-       }
+     
 
-       else {
-            prompt ('Você só pode beber refrigenrante')
+        if (nota1 < 0 || nota2 < 0 || media <= 5) {
+            alert ("Desculpe, você foi reprovado!")
+        }
 
-       }
-
-
+        else {
+            alert("Parabéns, você foi aprovado!")
+        }
 
 
 /*
