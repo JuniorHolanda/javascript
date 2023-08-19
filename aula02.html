@@ -10,11 +10,46 @@
 
     <script>
 
-        var nota1 = parseInt(prompt("Digite um número")); 
+        
+
+
+        var n = parseFloat ( prompt("Digite um número") );
+        
+        switch (n) {
+            case 1:
+                alert('boa escolha!');
+                break;
+            case 2:
+                alert('é isso ai meu amigo!')
+                break;
+            case 3:
+                alert('Porque sempre vem um media depois de : ?');
+                break;
+            case 4:
+                alert ('cai nisso de novo');
+                break;
+            case 5:
+                alert ('Agora eu fui ligeiro');
+                break;
+            case 6:
+                alert ("Beba água!")
+                break;
+            default:
+            alert ("Escolha um número de 1 a 6")  
+
+        }
+
+        /*
+
+
+var nota1 = parseInt(prompt("Digite um número")); 
         var nota2 = parseInt(prompt("Digite outro número"));
         var media = (nota1 + nota2) / 2;
 
-     
+
+
+
+
 
         if (nota1 < 0 || nota2 < 0 || media <= 5) {
             alert ("Desculpe, você foi reprovado!")
